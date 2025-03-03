@@ -1,143 +1,162 @@
 html {
-	font-size: 17px;
-}
-body {
-	font-family: 'Lato', sans-serif; 
-	margin: 0;
-	background-color: #fcfbfa;
-}
-img {
-	max-width: 100%;
-}
-h1 {
-	font-size: 2.4rem; 
-	line-height: 1.2;
-	color: #fff;
-	width: 80%;
-	margin: 1.6rem auto 0;
-	text-align: center;
-}
-h2 {
-	font-size: 1.6rem;
-	line-height: 1.2;
-	color: #1a1a1a;
-	margin: .9rem 0;
-}
-p {
-	line-height: 1.7;
-	color: #000;
-	margin: 0 0 1.6rem;
-}
-a {
-	text-decoration: none;
-	color: #00a9d4;
-}
-ul {
-	list-style-type: none;
-}
-nav {
-	font-size: 1.1rem;
-}
-nav ul {
-	padding: 0;
-	margin: 0;
-	margin-bottom: .65rem;
-}
-nav li {
-	line-height: 1.5;
-}
-nav li a {
-	padding: .29rem .59rem;
-	color: #fff;
-}
-.content-wrapper {
-	max-width: 960px;
-	margin: auto;
-	padding: 0 1.8rem;
-}
-main .content-wrapper {
-	max-width: 42em;
-}
-header {
-	background-color: #00b0dc;
-	border-bottom: 3px solid #009bc2;
-	line-height: 1px;
-	margin: auto;
-	overflow: hidden;
-	text-align: center;
-}
-header .logo {
-	margin: .65rem .4rem;
-	width: 132px;
-}
-.hero {
-	text-align: center;
-	padding: 2.4rem 0;
-	background:
-		linear-gradient(
-			rgba(0, 0, 0, .48), 
-			rgba(0, 0, 0, .48)
-		), 
-		url('../img/siesta-in-hammock@2x.jpg') no-repeat 60% center;
-	background-size: cover;
-}
-.hero p {
-	color: #fff;
-	width: 80%;
-	margin: 0 auto 1.6rem;
-	font-size: 1.4rem;
-	line-height: 1.5;
-	font-weight: 300;
-}
-main {
-	box-sizing: border-box;
-	padding: 30px 0;
-	border-bottom: solid 1px #dcdcdc;
-}
-#press-quote {
-	font-style: italic;
-	font-size: 1.4rem;
-	line-height: 1.5;
-	font-weight: 300;
-	margin: 1.8rem 0;
-	border-left: 4px solid #53b7ea;
-	padding-left: 1em;
-}
-figure {
-	margin: 0;
-}
-figcaption {
-	color: #888;
-	text-align: center;
-	margin: .47rem 0 1.2rem;
-	font-size: .82rem;
-}
-footer {
-	padding: 1.2rem;
-}
-footer p {
-	font-size: .94rem;
-	font-weight: 300;
-	color: #999;
-	text-align: center;
-	margin-bottom: 0;
+    font-size: 16px; /* Slightly smaller base font size for compactness */
 }
 
-@media (min-width: 540px) { 
-	header .logo {
-		float: left;
-	}
-	nav {
-		float: right;
-		margin-top: 21px;
-	}
-	nav ul li {
-		display: inline-block;
-	}
-	figure {
-		float: left;
-		width: 40%;
-		min-width: 225px;
-		margin-right: 1.53rem;
-	}
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    background-color: #f5f7f5; /* Light green-gray background */
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 2rem; /* Smaller heading */
+    line-height: 1.1;
+    color: #fff;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    color: #2a2a2a;
+    margin: 1rem 0;
+}
+
+p {
+    line-height: 1.6;
+    color: #333;
+    margin: 0 0 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #4a8e4a; /* Green link color */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav {
+    font-size: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: .5rem 0;
+}
+
+nav li {
+    line-height: 1.5;
+    display: inline-block; /* Inline navigation items */
+    margin: 0 .5rem;
+}
+
+nav li a {
+    padding: .25rem .5rem;
+    color: #fff;
+}
+
+.content-wrapper {
+    max-width: 800px; /* Slightly narrower content area */
+    margin: auto;
+    padding: 0 1rem;
+}
+
+main .content-wrapper {
+    max-width: 800px; /* Consistent width with header */
+}
+
+header {
+    background-color: #6ab06a; /* Green header */
+    border-bottom: 2px solid #5a9a5a;
+    padding: .5rem 0;
+    text-align: center;
+}
+
+header .logo {
+    margin: .5rem 0;
+    width: 120px; /* Slightly smaller logo */
+}
+
+.hero {
+    text-align: center;
+    padding: 1.5rem 0; /* Less padding for compactness */
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, .5), 
+            rgba(0, 0, 0, .5)
+        ), 
+        url('../img/siesta-in-hammock@2x.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.hero p {
+    color: #fff;
+    margin: 0 auto 1rem;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+main {
+    box-sizing: border-box;
+    padding: 1.5rem 0; /* Reduced padding */
+    border-bottom: solid 1px #e0e0e0;
+}
+
+#press-quote {
+    font-style: italic;
+    font-size: 1.3rem;
+    line-height: 1.4;
+    font-weight: 300;
+    margin: 1rem 0;
+    border-left: 3px solid #4a8e4a; /* Green border */
+    padding-left: .75rem;
+}
+
+figure {
+    margin: 0 0 1rem;
+    text-align: center; /* Centered image */
+}
+
+figcaption {
+    color: #666;
+    text-align: center;
+    margin: .25rem 0;
+    font-size: .8rem;
+}
+
+footer {
+    padding: 1rem;
+    background-color: #f5f7f5;
+}
+
+footer p {
+    font-size: .9rem;
+    font-weight: 300;
+    color: #777;
+    text-align: center;
+    margin: 0;
+}
+
+@media (min-width: 540px) {
+    .content-wrapper {
+        padding: 0 1.5rem; /* Slightly more padding on larger screens */
+    }
+
+    header {
+        padding: 1rem 0; /* Slightly taller header */
+    }
+
+    nav {
+        margin-top: 0; /* No floating, so no need for margin adjustment */
+    }
 }
